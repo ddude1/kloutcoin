@@ -21,5 +21,3 @@ Block Reward: 100 Klouts
 PoS Info: 75% Interest
 
 Ports: RPC: 16534 P2P: 16533
-
-Premine: 20% or 1.000.000.000
