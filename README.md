@@ -10,6 +10,8 @@ Ticket: KLT
 
 Max Supply: 5.000.000.000
 
+Premine: 20 Blocks, 1.000.001.900, ~20%
+
 Algo: Scrypt
 
 Last Proof-of-Work block: 250.000
