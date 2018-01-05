@@ -91,6 +91,7 @@ public:
 
     bool fFileBacked;
     std::string strWalletFile;
+    uint64_t nStakeSplitThreshold;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -103,6 +104,7 @@ public:
     CWallet()
     {
         SetNull();
+        nStakeSplitThreshold = 1000000;
     }
     CWallet(std::string strWalletFileIn)
     {
@@ -110,6 +112,7 @@ public:
 
         strWalletFile = strWalletFileIn;
         fFileBacked = true;
+        nStakeSplitThreshold = 1000000;
     }
     void SetNull()
     {
