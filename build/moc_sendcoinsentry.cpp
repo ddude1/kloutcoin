@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'sendcoinsentry.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,45 +12,48 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'sendcoinsentry.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_SendCoinsEntry_t {
     QByteArrayData data[15];
-    char stringdata[222];
+    char stringdata0[221];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_SendCoinsEntry_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_SendCoinsEntry_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_SendCoinsEntry_t qt_meta_stringdata_SendCoinsEntry = {
     {
-QT_MOC_LITERAL(0, 0, 14),
-QT_MOC_LITERAL(1, 15, 11),
-QT_MOC_LITERAL(2, 27, 0),
-QT_MOC_LITERAL(3, 28, 15),
-QT_MOC_LITERAL(4, 44, 5),
-QT_MOC_LITERAL(5, 50, 16),
-QT_MOC_LITERAL(6, 67, 16),
-QT_MOC_LITERAL(7, 84, 7),
-QT_MOC_LITERAL(8, 92, 5),
-QT_MOC_LITERAL(9, 98, 23),
-QT_MOC_LITERAL(10, 122, 20),
-QT_MOC_LITERAL(11, 143, 7),
-QT_MOC_LITERAL(12, 151, 28),
-QT_MOC_LITERAL(13, 180, 22),
-QT_MOC_LITERAL(14, 203, 17)
+QT_MOC_LITERAL(0, 0, 14), // "SendCoinsEntry"
+QT_MOC_LITERAL(1, 15, 11), // "removeEntry"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 15), // "SendCoinsEntry*"
+QT_MOC_LITERAL(4, 44, 5), // "entry"
+QT_MOC_LITERAL(5, 50, 16), // "payAmountChanged"
+QT_MOC_LITERAL(6, 67, 16), // "setRemoveEnabled"
+QT_MOC_LITERAL(7, 84, 7), // "enabled"
+QT_MOC_LITERAL(8, 92, 5), // "clear"
+QT_MOC_LITERAL(9, 98, 23), // "on_deleteButton_clicked"
+QT_MOC_LITERAL(10, 122, 20), // "on_payTo_textChanged"
+QT_MOC_LITERAL(11, 143, 7), // "address"
+QT_MOC_LITERAL(12, 151, 28), // "on_addressBookButton_clicked"
+QT_MOC_LITERAL(13, 180, 22), // "on_pasteButton_clicked"
+QT_MOC_LITERAL(14, 203, 17) // "updateDisplayUnit"
+
     },
     "SendCoinsEntry\0removeEntry\0\0SendCoinsEntry*\0"
     "entry\0payAmountChanged\0setRemoveEnabled\0"
     "enabled\0clear\0on_deleteButton_clicked\0"
     "on_payTo_textChanged\0address\0"
     "on_addressBookButton_clicked\0"
-    "on_pasteButton_clicked\0updateDisplayUnit\0"
+    "on_pasteButton_clicked\0updateDisplayUnit"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,17 +71,17 @@ static const uint qt_meta_data_SendCoinsEntry[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   59,    2, 0x06,
-       5,    0,   62,    2, 0x06,
+       1,    1,   59,    2, 0x06 /* Public */,
+       5,    0,   62,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    1,   63,    2, 0x0a,
-       8,    0,   66,    2, 0x0a,
-       9,    0,   67,    2, 0x08,
-      10,    1,   68,    2, 0x08,
-      12,    0,   71,    2, 0x08,
-      13,    0,   72,    2, 0x08,
-      14,    0,   73,    2, 0x08,
+       6,    1,   63,    2, 0x0a /* Public */,
+       8,    0,   66,    2, 0x0a /* Public */,
+       9,    0,   67,    2, 0x08 /* Private */,
+      10,    1,   68,    2, 0x08 /* Private */,
+      12,    0,   71,    2, 0x08 /* Private */,
+      13,    0,   72,    2, 0x08 /* Private */,
+      14,    0,   73,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -100,6 +103,7 @@ void SendCoinsEntry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         SendCoinsEntry *_t = static_cast<SendCoinsEntry *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->removeEntry((*reinterpret_cast< SendCoinsEntry*(*)>(_a[1]))); break;
         case 1: _t->payAmountChanged(); break;
@@ -125,17 +129,18 @@ void SendCoinsEntry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
             typedef void (SendCoinsEntry::*_t)(SendCoinsEntry * );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&SendCoinsEntry::removeEntry)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SendCoinsEntry::removeEntry)) {
                 *result = 0;
+                return;
             }
         }
         {
             typedef void (SendCoinsEntry::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&SendCoinsEntry::payAmountChanged)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SendCoinsEntry::payAmountChanged)) {
                 *result = 1;
+                return;
             }
         }
     }
@@ -143,7 +148,7 @@ void SendCoinsEntry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
 
 const QMetaObject SendCoinsEntry::staticMetaObject = {
     { &QFrame::staticMetaObject, qt_meta_stringdata_SendCoinsEntry.data,
-      qt_meta_data_SendCoinsEntry,  qt_static_metacall, 0, 0}
+      qt_meta_data_SendCoinsEntry,  qt_static_metacall, nullptr, nullptr}
 };
 
 
@@ -154,9 +159,9 @@ const QMetaObject *SendCoinsEntry::metaObject() const
 
 void *SendCoinsEntry::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_SendCoinsEntry.stringdata))
-        return static_cast<void*>(const_cast< SendCoinsEntry*>(this));
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SendCoinsEntry.stringdata0))
+        return static_cast<void*>(this);
     return QFrame::qt_metacast(_clname);
 }
 
@@ -180,13 +185,14 @@ int SendCoinsEntry::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void SendCoinsEntry::removeEntry(SendCoinsEntry * _t1)
 {
-    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void SendCoinsEntry::payAmountChanged()
 {
-    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE

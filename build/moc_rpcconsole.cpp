@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'rpcconsole.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,44 +12,47 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'rpcconsole.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_RPCConsole_t {
     QByteArrayData data[21];
-    char stringdata[281];
+    char stringdata0[280];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_RPCConsole_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_RPCConsole_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_RPCConsole_t qt_meta_stringdata_RPCConsole = {
     {
-QT_MOC_LITERAL(0, 0, 10),
-QT_MOC_LITERAL(1, 11, 12),
-QT_MOC_LITERAL(2, 24, 0),
-QT_MOC_LITERAL(3, 25, 10),
-QT_MOC_LITERAL(4, 36, 7),
-QT_MOC_LITERAL(5, 44, 25),
-QT_MOC_LITERAL(6, 70, 27),
-QT_MOC_LITERAL(7, 98, 5),
-QT_MOC_LITERAL(8, 104, 33),
-QT_MOC_LITERAL(9, 138, 30),
-QT_MOC_LITERAL(10, 169, 5),
-QT_MOC_LITERAL(11, 175, 7),
-QT_MOC_LITERAL(12, 183, 8),
-QT_MOC_LITERAL(13, 192, 4),
-QT_MOC_LITERAL(14, 197, 17),
-QT_MOC_LITERAL(15, 215, 5),
-QT_MOC_LITERAL(16, 221, 12),
-QT_MOC_LITERAL(17, 234, 12),
-QT_MOC_LITERAL(18, 247, 13),
-QT_MOC_LITERAL(19, 261, 6),
-QT_MOC_LITERAL(20, 268, 11)
+QT_MOC_LITERAL(0, 0, 10), // "RPCConsole"
+QT_MOC_LITERAL(1, 11, 12), // "stopExecutor"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 10), // "cmdRequest"
+QT_MOC_LITERAL(4, 36, 7), // "command"
+QT_MOC_LITERAL(5, 44, 25), // "on_lineEdit_returnPressed"
+QT_MOC_LITERAL(6, 70, 27), // "on_tabWidget_currentChanged"
+QT_MOC_LITERAL(7, 98, 5), // "index"
+QT_MOC_LITERAL(8, 104, 33), // "on_openDebugLogfileButton_cli..."
+QT_MOC_LITERAL(9, 138, 30), // "on_showCLOptionsButton_clicked"
+QT_MOC_LITERAL(10, 169, 5), // "clear"
+QT_MOC_LITERAL(11, 175, 7), // "message"
+QT_MOC_LITERAL(12, 183, 8), // "category"
+QT_MOC_LITERAL(13, 192, 4), // "html"
+QT_MOC_LITERAL(14, 197, 17), // "setNumConnections"
+QT_MOC_LITERAL(15, 215, 5), // "count"
+QT_MOC_LITERAL(16, 221, 12), // "setNumBlocks"
+QT_MOC_LITERAL(17, 234, 12), // "countOfPeers"
+QT_MOC_LITERAL(18, 247, 13), // "browseHistory"
+QT_MOC_LITERAL(19, 261, 6), // "offset"
+QT_MOC_LITERAL(20, 268, 11) // "scrollToEnd"
+
     },
     "RPCConsole\0stopExecutor\0\0cmdRequest\0"
     "command\0on_lineEdit_returnPressed\0"
@@ -58,7 +61,7 @@ QT_MOC_LITERAL(20, 268, 11)
     "on_showCLOptionsButton_clicked\0clear\0"
     "message\0category\0html\0setNumConnections\0"
     "count\0setNumBlocks\0countOfPeers\0"
-    "browseHistory\0offset\0scrollToEnd\0"
+    "browseHistory\0offset\0scrollToEnd"
 };
 #undef QT_MOC_LITERAL
 
@@ -76,21 +79,21 @@ static const uint qt_meta_data_RPCConsole[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   79,    2, 0x06,
-       3,    1,   80,    2, 0x06,
+       1,    0,   79,    2, 0x06 /* Public */,
+       3,    1,   80,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   83,    2, 0x08,
-       6,    1,   84,    2, 0x08,
-       8,    0,   87,    2, 0x08,
-       9,    0,   88,    2, 0x08,
-      10,    0,   89,    2, 0x0a,
-      11,    3,   90,    2, 0x0a,
-      11,    2,   97,    2, 0x2a,
-      14,    1,  102,    2, 0x0a,
-      16,    2,  105,    2, 0x0a,
-      18,    1,  110,    2, 0x0a,
-      20,    0,  113,    2, 0x0a,
+       5,    0,   83,    2, 0x08 /* Private */,
+       6,    1,   84,    2, 0x08 /* Private */,
+       8,    0,   87,    2, 0x08 /* Private */,
+       9,    0,   88,    2, 0x08 /* Private */,
+      10,    0,   89,    2, 0x0a /* Public */,
+      11,    3,   90,    2, 0x0a /* Public */,
+      11,    2,   97,    2, 0x2a /* Public | MethodCloned */,
+      14,    1,  102,    2, 0x0a /* Public */,
+      16,    2,  105,    2, 0x0a /* Public */,
+      18,    1,  110,    2, 0x0a /* Public */,
+      20,    0,  113,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -116,6 +119,7 @@ void RPCConsole::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         RPCConsole *_t = static_cast<RPCConsole *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->stopExecutor(); break;
         case 1: _t->cmdRequest((*reinterpret_cast< const QString(*)>(_a[1]))); break;
@@ -134,17 +138,18 @@ void RPCConsole::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
             typedef void (RPCConsole::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&RPCConsole::stopExecutor)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&RPCConsole::stopExecutor)) {
                 *result = 0;
+                return;
             }
         }
         {
             typedef void (RPCConsole::*_t)(const QString & );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&RPCConsole::cmdRequest)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&RPCConsole::cmdRequest)) {
                 *result = 1;
+                return;
             }
         }
     }
@@ -152,7 +157,7 @@ void RPCConsole::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 
 const QMetaObject RPCConsole::staticMetaObject = {
     { &QDialog::staticMetaObject, qt_meta_stringdata_RPCConsole.data,
-      qt_meta_data_RPCConsole,  qt_static_metacall, 0, 0}
+      qt_meta_data_RPCConsole,  qt_static_metacall, nullptr, nullptr}
 };
 
 
@@ -163,9 +168,9 @@ const QMetaObject *RPCConsole::metaObject() const
 
 void *RPCConsole::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_RPCConsole.stringdata))
-        return static_cast<void*>(const_cast< RPCConsole*>(this));
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_RPCConsole.stringdata0))
+        return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
@@ -189,13 +194,14 @@ int RPCConsole::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void RPCConsole::stopExecutor()
 {
-    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
 void RPCConsole::cmdRequest(const QString & _t1)
 {
-    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE

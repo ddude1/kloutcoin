@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'addressbookpage.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,46 +12,49 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'addressbookpage.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_AddressBookPage_t {
     QByteArrayData data[23];
-    char stringdata[327];
+    char stringdata0[326];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_AddressBookPage_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_AddressBookPage_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_AddressBookPage_t qt_meta_stringdata_AddressBookPage = {
     {
-QT_MOC_LITERAL(0, 0, 15),
-QT_MOC_LITERAL(1, 16, 11),
-QT_MOC_LITERAL(2, 28, 0),
-QT_MOC_LITERAL(3, 29, 4),
-QT_MOC_LITERAL(4, 34, 13),
-QT_MOC_LITERAL(5, 48, 4),
-QT_MOC_LITERAL(6, 53, 6),
-QT_MOC_LITERAL(7, 60, 13),
-QT_MOC_LITERAL(8, 74, 23),
-QT_MOC_LITERAL(9, 98, 27),
-QT_MOC_LITERAL(10, 126, 26),
-QT_MOC_LITERAL(11, 153, 22),
-QT_MOC_LITERAL(12, 176, 24),
-QT_MOC_LITERAL(13, 201, 16),
-QT_MOC_LITERAL(14, 218, 21),
-QT_MOC_LITERAL(15, 240, 14),
-QT_MOC_LITERAL(16, 255, 5),
-QT_MOC_LITERAL(17, 261, 17),
-QT_MOC_LITERAL(18, 279, 12),
-QT_MOC_LITERAL(19, 292, 16),
-QT_MOC_LITERAL(20, 309, 6),
-QT_MOC_LITERAL(21, 316, 5),
-QT_MOC_LITERAL(22, 322, 3)
+QT_MOC_LITERAL(0, 0, 15), // "AddressBookPage"
+QT_MOC_LITERAL(1, 16, 11), // "signMessage"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 4), // "addr"
+QT_MOC_LITERAL(4, 34, 13), // "verifyMessage"
+QT_MOC_LITERAL(5, 48, 4), // "done"
+QT_MOC_LITERAL(6, 53, 6), // "retval"
+QT_MOC_LITERAL(7, 60, 13), // "exportClicked"
+QT_MOC_LITERAL(8, 74, 23), // "on_deleteButton_clicked"
+QT_MOC_LITERAL(9, 98, 27), // "on_newAddressButton_clicked"
+QT_MOC_LITERAL(10, 126, 26), // "on_copyToClipboard_clicked"
+QT_MOC_LITERAL(11, 153, 22), // "on_signMessage_clicked"
+QT_MOC_LITERAL(12, 176, 24), // "on_verifyMessage_clicked"
+QT_MOC_LITERAL(13, 201, 16), // "selectionChanged"
+QT_MOC_LITERAL(14, 218, 21), // "on_showQRCode_clicked"
+QT_MOC_LITERAL(15, 240, 14), // "contextualMenu"
+QT_MOC_LITERAL(16, 255, 5), // "point"
+QT_MOC_LITERAL(17, 261, 17), // "onCopyLabelAction"
+QT_MOC_LITERAL(18, 279, 12), // "onEditAction"
+QT_MOC_LITERAL(19, 292, 16), // "selectNewAddress"
+QT_MOC_LITERAL(20, 309, 6), // "parent"
+QT_MOC_LITERAL(21, 316, 5), // "begin"
+QT_MOC_LITERAL(22, 322, 3) // "end"
+
     },
     "AddressBookPage\0signMessage\0\0addr\0"
     "verifyMessage\0done\0retval\0exportClicked\0"
@@ -62,7 +65,7 @@ QT_MOC_LITERAL(22, 322, 3)
     "selectionChanged\0on_showQRCode_clicked\0"
     "contextualMenu\0point\0onCopyLabelAction\0"
     "onEditAction\0selectNewAddress\0parent\0"
-    "begin\0end\0"
+    "begin\0end"
 };
 #undef QT_MOC_LITERAL
 
@@ -80,23 +83,23 @@ static const uint qt_meta_data_AddressBookPage[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   89,    2, 0x06,
-       4,    1,   92,    2, 0x06,
+       1,    1,   89,    2, 0x06 /* Public */,
+       4,    1,   92,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    1,   95,    2, 0x0a,
-       7,    0,   98,    2, 0x0a,
-       8,    0,   99,    2, 0x08,
-       9,    0,  100,    2, 0x08,
-      10,    0,  101,    2, 0x08,
-      11,    0,  102,    2, 0x08,
-      12,    0,  103,    2, 0x08,
-      13,    0,  104,    2, 0x08,
-      14,    0,  105,    2, 0x08,
-      15,    1,  106,    2, 0x08,
-      17,    0,  109,    2, 0x08,
-      18,    0,  110,    2, 0x08,
-      19,    3,  111,    2, 0x08,
+       5,    1,   95,    2, 0x0a /* Public */,
+       7,    0,   98,    2, 0x0a /* Public */,
+       8,    0,   99,    2, 0x08 /* Private */,
+       9,    0,  100,    2, 0x08 /* Private */,
+      10,    0,  101,    2, 0x08 /* Private */,
+      11,    0,  102,    2, 0x08 /* Private */,
+      12,    0,  103,    2, 0x08 /* Private */,
+      13,    0,  104,    2, 0x08 /* Private */,
+      14,    0,  105,    2, 0x08 /* Private */,
+      15,    1,  106,    2, 0x08 /* Private */,
+      17,    0,  109,    2, 0x08 /* Private */,
+      18,    0,  110,    2, 0x08 /* Private */,
+      19,    3,  111,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -124,6 +127,7 @@ void AddressBookPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         AddressBookPage *_t = static_cast<AddressBookPage *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->signMessage((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 1: _t->verifyMessage((*reinterpret_cast< QString(*)>(_a[1]))); break;
@@ -144,17 +148,18 @@ void AddressBookPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
             typedef void (AddressBookPage::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&AddressBookPage::signMessage)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&AddressBookPage::signMessage)) {
                 *result = 0;
+                return;
             }
         }
         {
             typedef void (AddressBookPage::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&AddressBookPage::verifyMessage)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&AddressBookPage::verifyMessage)) {
                 *result = 1;
+                return;
             }
         }
     }
@@ -162,7 +167,7 @@ void AddressBookPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
 
 const QMetaObject AddressBookPage::staticMetaObject = {
     { &QDialog::staticMetaObject, qt_meta_stringdata_AddressBookPage.data,
-      qt_meta_data_AddressBookPage,  qt_static_metacall, 0, 0}
+      qt_meta_data_AddressBookPage,  qt_static_metacall, nullptr, nullptr}
 };
 
 
@@ -173,9 +178,9 @@ const QMetaObject *AddressBookPage::metaObject() const
 
 void *AddressBookPage::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_AddressBookPage.stringdata))
-        return static_cast<void*>(const_cast< AddressBookPage*>(this));
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_AddressBookPage.stringdata0))
+        return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
@@ -199,14 +204,15 @@ int AddressBookPage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void AddressBookPage::signMessage(QString _t1)
 {
-    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void AddressBookPage::verifyMessage(QString _t1)
 {
-    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE

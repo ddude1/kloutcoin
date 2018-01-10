@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bitcoingui.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,68 +12,71 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'bitcoingui.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_BitcoinGUI_t {
     QByteArrayData data[45];
-    char stringdata[575];
+    char stringdata0[574];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_BitcoinGUI_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_BitcoinGUI_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_BitcoinGUI_t qt_meta_stringdata_BitcoinGUI = {
     {
-QT_MOC_LITERAL(0, 0, 10),
-QT_MOC_LITERAL(1, 11, 17),
-QT_MOC_LITERAL(2, 29, 0),
-QT_MOC_LITERAL(3, 30, 5),
-QT_MOC_LITERAL(4, 36, 12),
-QT_MOC_LITERAL(5, 49, 12),
-QT_MOC_LITERAL(6, 62, 19),
-QT_MOC_LITERAL(7, 82, 6),
-QT_MOC_LITERAL(8, 89, 5),
-QT_MOC_LITERAL(9, 95, 5),
-QT_MOC_LITERAL(10, 101, 7),
-QT_MOC_LITERAL(11, 109, 5),
-QT_MOC_LITERAL(12, 115, 6),
-QT_MOC_LITERAL(13, 122, 12),
-QT_MOC_LITERAL(14, 135, 5),
-QT_MOC_LITERAL(15, 141, 6),
-QT_MOC_LITERAL(16, 148, 9),
-QT_MOC_LITERAL(17, 158, 6),
-QT_MOC_LITERAL(18, 165, 16),
-QT_MOC_LITERAL(19, 182, 15),
-QT_MOC_LITERAL(20, 198, 19),
-QT_MOC_LITERAL(21, 218, 20),
-QT_MOC_LITERAL(22, 239, 17),
-QT_MOC_LITERAL(23, 257, 18),
-QT_MOC_LITERAL(24, 276, 4),
-QT_MOC_LITERAL(25, 281, 20),
-QT_MOC_LITERAL(26, 302, 14),
-QT_MOC_LITERAL(27, 317, 12),
-QT_MOC_LITERAL(28, 330, 17),
-QT_MOC_LITERAL(29, 348, 33),
-QT_MOC_LITERAL(30, 382, 6),
-QT_MOC_LITERAL(31, 389, 19),
-QT_MOC_LITERAL(32, 409, 6),
-QT_MOC_LITERAL(33, 416, 5),
-QT_MOC_LITERAL(34, 422, 3),
-QT_MOC_LITERAL(35, 426, 13),
-QT_MOC_LITERAL(36, 440, 12),
-QT_MOC_LITERAL(37, 453, 16),
-QT_MOC_LITERAL(38, 470, 12),
-QT_MOC_LITERAL(39, 483, 10),
-QT_MOC_LITERAL(40, 494, 21),
-QT_MOC_LITERAL(41, 516, 13),
-QT_MOC_LITERAL(42, 530, 12),
-QT_MOC_LITERAL(43, 543, 12),
-QT_MOC_LITERAL(44, 556, 17)
+QT_MOC_LITERAL(0, 0, 10), // "BitcoinGUI"
+QT_MOC_LITERAL(1, 11, 17), // "setNumConnections"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 5), // "count"
+QT_MOC_LITERAL(4, 36, 12), // "setNumBlocks"
+QT_MOC_LITERAL(5, 49, 12), // "nTotalBlocks"
+QT_MOC_LITERAL(6, 62, 19), // "setEncryptionStatus"
+QT_MOC_LITERAL(7, 82, 6), // "status"
+QT_MOC_LITERAL(8, 89, 5), // "error"
+QT_MOC_LITERAL(9, 95, 5), // "title"
+QT_MOC_LITERAL(10, 101, 7), // "message"
+QT_MOC_LITERAL(11, 109, 5), // "modal"
+QT_MOC_LITERAL(12, 115, 6), // "askFee"
+QT_MOC_LITERAL(13, 122, 12), // "nFeeRequired"
+QT_MOC_LITERAL(14, 135, 5), // "bool*"
+QT_MOC_LITERAL(15, 141, 6), // "payFee"
+QT_MOC_LITERAL(16, 148, 9), // "handleURI"
+QT_MOC_LITERAL(17, 158, 6), // "strURI"
+QT_MOC_LITERAL(18, 165, 16), // "gotoOverviewPage"
+QT_MOC_LITERAL(19, 182, 15), // "gotoHistoryPage"
+QT_MOC_LITERAL(20, 198, 19), // "gotoAddressBookPage"
+QT_MOC_LITERAL(21, 218, 20), // "gotoReceiveCoinsPage"
+QT_MOC_LITERAL(22, 239, 17), // "gotoSendCoinsPage"
+QT_MOC_LITERAL(23, 257, 18), // "gotoSignMessageTab"
+QT_MOC_LITERAL(24, 276, 4), // "addr"
+QT_MOC_LITERAL(25, 281, 20), // "gotoVerifyMessageTab"
+QT_MOC_LITERAL(26, 302, 14), // "optionsClicked"
+QT_MOC_LITERAL(27, 317, 12), // "aboutClicked"
+QT_MOC_LITERAL(28, 330, 17), // "trayIconActivated"
+QT_MOC_LITERAL(29, 348, 33), // "QSystemTrayIcon::ActivationRe..."
+QT_MOC_LITERAL(30, 382, 6), // "reason"
+QT_MOC_LITERAL(31, 389, 19), // "incomingTransaction"
+QT_MOC_LITERAL(32, 409, 6), // "parent"
+QT_MOC_LITERAL(33, 416, 5), // "start"
+QT_MOC_LITERAL(34, 422, 3), // "end"
+QT_MOC_LITERAL(35, 426, 13), // "encryptWallet"
+QT_MOC_LITERAL(36, 440, 12), // "backupWallet"
+QT_MOC_LITERAL(37, 453, 16), // "changePassphrase"
+QT_MOC_LITERAL(38, 470, 12), // "unlockWallet"
+QT_MOC_LITERAL(39, 483, 10), // "lockWallet"
+QT_MOC_LITERAL(40, 494, 21), // "showNormalIfMinimized"
+QT_MOC_LITERAL(41, 516, 13), // "fToggleHidden"
+QT_MOC_LITERAL(42, 530, 12), // "toggleHidden"
+QT_MOC_LITERAL(43, 543, 12), // "updateWeight"
+QT_MOC_LITERAL(44, 556, 17) // "updateStakingIcon"
+
     },
     "BitcoinGUI\0setNumConnections\0\0count\0"
     "setNumBlocks\0nTotalBlocks\0setEncryptionStatus\0"
@@ -89,7 +92,7 @@ QT_MOC_LITERAL(44, 556, 17)
     "start\0end\0encryptWallet\0backupWallet\0"
     "changePassphrase\0unlockWallet\0lockWallet\0"
     "showNormalIfMinimized\0fToggleHidden\0"
-    "toggleHidden\0updateWeight\0updateStakingIcon\0"
+    "toggleHidden\0updateWeight\0updateStakingIcon"
 };
 #undef QT_MOC_LITERAL
 
@@ -107,35 +110,35 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,  159,    2, 0x0a,
-       4,    2,  162,    2, 0x0a,
-       6,    1,  167,    2, 0x0a,
-       8,    3,  170,    2, 0x0a,
-      12,    2,  177,    2, 0x0a,
-      16,    1,  182,    2, 0x0a,
-      18,    0,  185,    2, 0x08,
-      19,    0,  186,    2, 0x08,
-      20,    0,  187,    2, 0x08,
-      21,    0,  188,    2, 0x08,
-      22,    0,  189,    2, 0x08,
-      23,    1,  190,    2, 0x08,
-      23,    0,  193,    2, 0x28,
-      25,    1,  194,    2, 0x08,
-      25,    0,  197,    2, 0x28,
-      26,    0,  198,    2, 0x08,
-      27,    0,  199,    2, 0x08,
-      28,    1,  200,    2, 0x08,
-      31,    3,  203,    2, 0x08,
-      35,    1,  210,    2, 0x08,
-      36,    0,  213,    2, 0x08,
-      37,    0,  214,    2, 0x08,
-      38,    0,  215,    2, 0x08,
-      39,    0,  216,    2, 0x08,
-      40,    1,  217,    2, 0x08,
-      40,    0,  220,    2, 0x28,
-      42,    0,  221,    2, 0x08,
-      43,    0,  222,    2, 0x08,
-      44,    0,  223,    2, 0x08,
+       1,    1,  159,    2, 0x0a /* Public */,
+       4,    2,  162,    2, 0x0a /* Public */,
+       6,    1,  167,    2, 0x0a /* Public */,
+       8,    3,  170,    2, 0x0a /* Public */,
+      12,    2,  177,    2, 0x0a /* Public */,
+      16,    1,  182,    2, 0x0a /* Public */,
+      18,    0,  185,    2, 0x08 /* Private */,
+      19,    0,  186,    2, 0x08 /* Private */,
+      20,    0,  187,    2, 0x08 /* Private */,
+      21,    0,  188,    2, 0x08 /* Private */,
+      22,    0,  189,    2, 0x08 /* Private */,
+      23,    1,  190,    2, 0x08 /* Private */,
+      23,    0,  193,    2, 0x28 /* Private | MethodCloned */,
+      25,    1,  194,    2, 0x08 /* Private */,
+      25,    0,  197,    2, 0x28 /* Private | MethodCloned */,
+      26,    0,  198,    2, 0x08 /* Private */,
+      27,    0,  199,    2, 0x08 /* Private */,
+      28,    1,  200,    2, 0x08 /* Private */,
+      31,    3,  203,    2, 0x08 /* Private */,
+      35,    1,  210,    2, 0x08 /* Private */,
+      36,    0,  213,    2, 0x08 /* Private */,
+      37,    0,  214,    2, 0x08 /* Private */,
+      38,    0,  215,    2, 0x08 /* Private */,
+      39,    0,  216,    2, 0x08 /* Private */,
+      40,    1,  217,    2, 0x08 /* Private */,
+      40,    0,  220,    2, 0x28 /* Private | MethodCloned */,
+      42,    0,  221,    2, 0x08 /* Private */,
+      43,    0,  222,    2, 0x08 /* Private */,
+      44,    0,  223,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -175,6 +178,7 @@ void BitcoinGUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         BitcoinGUI *_t = static_cast<BitcoinGUI *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->setNumConnections((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 1: _t->setNumBlocks((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
@@ -212,7 +216,7 @@ void BitcoinGUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 
 const QMetaObject BitcoinGUI::staticMetaObject = {
     { &QMainWindow::staticMetaObject, qt_meta_stringdata_BitcoinGUI.data,
-      qt_meta_data_BitcoinGUI,  qt_static_metacall, 0, 0}
+      qt_meta_data_BitcoinGUI,  qt_static_metacall, nullptr, nullptr}
 };
 
 
@@ -223,9 +227,9 @@ const QMetaObject *BitcoinGUI::metaObject() const
 
 void *BitcoinGUI::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_BitcoinGUI.stringdata))
-        return static_cast<void*>(const_cast< BitcoinGUI*>(this));
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_BitcoinGUI.stringdata0))
+        return static_cast<void*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
 
@@ -245,4 +249,5 @@ int BitcoinGUI::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     }
     return _id;
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE
