@@ -13,9 +13,7 @@ packages:
 - "libqt4-core"
 - "libqt4-dev"
 reference_datetime: "2011-01-30 00:00:00"
-remotes:
-- "url": "https://github.com/ppcoin/ppcoin.git"
-  "dir": "ppcoin"
+remotes: []
 files:
 - "qt-win32-4.7.4-gitian.zip"
 - "boost-win32-1.47.0-gitian.zip"
