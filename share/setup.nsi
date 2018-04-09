@@ -46,14 +46,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile Klout-1.0.0-Win32-Setup.exe
+OutFile klout-1.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Klout
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 1.0.0.0
-VIAddVersionKey ProductName Klout
+VIAddVersionKey ProductName klout
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
