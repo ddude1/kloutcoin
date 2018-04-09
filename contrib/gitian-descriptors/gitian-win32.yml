@@ -67,7 +67,7 @@ script: |
   make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build kloutd.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=klout"
   i586-mingw32msvc-strip kloutd.exe
   mkdir $OUTDIR/daemon
-  cp ppcoind.exe $OUTDIR/daemon
+  cp kloutd.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis
