@@ -18,6 +18,7 @@ files:
 - "qt-win32-4.7.4-gitian.zip"
 - "boost-win32-1.47.0-gitian.zip"
 - "ppcoin-deps-0.0.1.zip"
+- "Klout.zip"
 script: |
   #
   mkdir $HOME/qt
@@ -43,9 +44,11 @@ script: |
   #
   find -type f | xargs touch --date="$REFERENCE_DATETIME"
   #
-  cd ppcoin
+  unzip Klout.zip
+  cd $HOME/build
+  cp -r kloutcoin $OUTDIR/src
+  cp -r kloutcoin nsis
   mkdir -p $OUTDIR/src
-  git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README_windows.txt $OUTDIR/readme.txt
   cp $OUTDIR/src/COPYING $OUTDIR/license.txt
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
