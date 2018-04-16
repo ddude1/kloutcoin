@@ -19,7 +19,7 @@ Scrypt
 250.000
 
 #### Block Reward
-100 Klouts
+100 Klout
 
 #### PoS Info
 75% Interest
