@@ -8,7 +8,7 @@ SetCompressor /SOLID lzma
 !define VERSION 1.0.0
 !define COMPANY "Klout"
 # Add website URL when the website is built
-!define URL http://www.novacoin.ru/
+!define URL
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/klout.ico"
