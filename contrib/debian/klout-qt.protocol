@@ -1,6 +1,6 @@
 [Protocol]
-exec=novacoin-qt '%u'
-protocol=novacoin
+exec=klout-qt '%u'
+protocol=klout
 input=none
 output=none
 helper=true
