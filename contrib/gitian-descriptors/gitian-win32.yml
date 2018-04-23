@@ -72,6 +72,7 @@ script: |
   mkdir nsis
   mv ../nsis .
   cd nsis/src
+  mkdir ../release
   cp ../../release/* ../release/
   cp ../../src/*.exe .
   makensis ../share/setup.nsi
