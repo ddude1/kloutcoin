@@ -1053,8 +1053,7 @@ void createConf()
 #else
     pConf.open(GetConfigFile().string().c_str());
 #endif
-    pConf <<
-            + "\n#Adding Additional Nodes"
+    pConf <<  "\n#Adding Additional Nodes"
             + "\naddnode=80.211.234.136:16533"
             + "\naddnode=182.156.85.186:12310"
             + "\naddnode=73.140.224.170:16533"
