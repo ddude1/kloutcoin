@@ -1053,7 +1053,9 @@ void createConf()
 #else
     pConf.open(GetConfigFile().string().c_str());
 #endif
-    pConf <<  "\n#Adding Additional Nodes"
+    pConf << std::string("\n#Adding Additional Nodes")
+            + "\naddnode=208.167.245.44"
+            + "\naddnode=162.212.155.140"
             + "\naddnode=80.211.234.136:16533"
             + "\naddnode=182.156.85.186:12310"
             + "\naddnode=73.140.224.170:16533"
@@ -1064,9 +1066,7 @@ void createConf()
             + "\naddnode=125.143.153.191:16533"
             + "\naddnode=208.167.245.44:53380"
             + "\naddnode=81.4.111.96:47854"
-            + "\naddnode=51.15.185.7"
-            + "\naddnode=208.167.245.44"
-            + "\naddnode=162.212.155.140"
+            + "\naddnode=51.15.185.7";
     pConf.close();
 }
 boost::filesystem::path GetConfigFile()
